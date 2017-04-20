@@ -1,8 +1,7 @@
 # Parity Change Log
 
-## [v1.7.0](https://github.com/paritytech/parity/tree/HEAD)
-
-[Full Changelog](https://github.com/paritytech/parity/compare/nightly...HEAD)
+## [v1.7.0](https://github.com/paritytech/parity/releases/v1.7.0) (2017-04-20)
+[Full Changelog](https://github.com/paritytech/parity/compare/v1.6.6...v1.7.0)
 
 **Enhancements:**
 
@@ -14,6 +13,7 @@
 - Warp sync keeps failing [\#5453](https://github.com/paritytech/parity/issues/5453)
 - Tx minimised shows transactions cross-chain  [\#5359](https://github.com/paritytech/parity/issues/5359)
 - Transfer allows character inputs and attempts sending thereof [\#5026](https://github.com/paritytech/parity/issues/5026)
+- Ropsten boot nodes need updating [\#4523](https://github.com/paritytech/parity/issues/4523)
 - Properly fix ETH native without filtering [\#4255](https://github.com/paritytech/parity/issues/4255)
 
 **Merged pull requests:**
@@ -21,9 +21,20 @@
 - Background-repeat round [\#5475](https://github.com/paritytech/parity/pull/5475) ([jacogr](https://github.com/jacogr))
 - Force two decimals for USD conversion rate [\#5471](https://github.com/paritytech/parity/pull/5471) ([5chdn](https://github.com/5chdn))
 - nl i18n updated [\#5461](https://github.com/paritytech/parity/pull/5461) ([h3ll0fr13nd](https://github.com/h3ll0fr13nd))
+- Added missing docs [\#5452](https://github.com/paritytech/parity/pull/5452) ([svyatonik](https://github.com/svyatonik))
+- Use in-memory database for tests [\#5451](https://github.com/paritytech/parity/pull/5451) ([arkpar](https://github.com/arkpar))
+- Fix buffer length for QR code gen. [\#5447](https://github.com/paritytech/parity/pull/5447) ([gavofyork](https://github.com/gavofyork))
+- Fix removal of hash-mismatched files. [\#5440](https://github.com/paritytech/parity/pull/5440) ([tomusdrw](https://github.com/tomusdrw))
+- WebSockets RPC server [\#5425](https://github.com/paritytech/parity/pull/5425) ([tomusdrw](https://github.com/tomusdrw))
+- Add raw hash signing [\#5423](https://github.com/paritytech/parity/pull/5423) ([keorn](https://github.com/keorn))
+- New state tests [\#5418](https://github.com/paritytech/parity/pull/5418) ([arkpar](https://github.com/arkpar))
+- Tests and tweaks for public node middleware [\#5417](https://github.com/paritytech/parity/pull/5417) ([maciejhirsz](https://github.com/maciejhirsz))
 - Show ETH value \(even 0\) if ETH transfer in transaction list [\#5406](https://github.com/paritytech/parity/pull/5406) ([ngotchac](https://github.com/ngotchac))
 - Store the pending requests per network version [\#5405](https://github.com/paritytech/parity/pull/5405) ([ngotchac](https://github.com/ngotchac))
+- parity\_getBlockHeaderByNumber and LightFetch utility [\#5383](https://github.com/paritytech/parity/pull/5383) ([rphmeier](https://github.com/rphmeier))
+- Work around mismatch for QR checksum [\#5374](https://github.com/paritytech/parity/pull/5374) ([jacogr](https://github.com/jacogr))
 - Refactoring of Tokens & Balances [\#5372](https://github.com/paritytech/parity/pull/5372) ([ngotchac](https://github.com/ngotchac))
+- Filters and block RPCs for the light client [\#5320](https://github.com/paritytech/parity/pull/5320) ([rphmeier](https://github.com/rphmeier))
 - EIP-86 [\#4697](https://github.com/paritytech/parity/pull/4697) ([arkpar](https://github.com/arkpar))
 
 
