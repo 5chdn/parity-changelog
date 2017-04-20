@@ -1,4 +1,4 @@
-#
+# Parity Change Log
 
 ## [v1.7.0](https://github.com/paritytech/parity/tree/v1.7.0) (2017-04-20)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.6...v1.7.0)
@@ -7,7 +7,7 @@
 
 - parity\_nodeKind: -32601: Method not found [\#5467](https://github.com/paritytech/parity/issues/5467)
 
-**Fixed
+**Fixed bugs:**
 
 - Chrome background image doesn't fill without gaps [\#5472](https://github.com/paritytech/parity/issues/5472)
 - Warp sync keeps failing [\#5453](https://github.com/paritytech/parity/issues/5453)
@@ -16,7 +16,7 @@
 - Ropsten boot nodes need updating [\#4523](https://github.com/paritytech/parity/issues/4523)
 - Properly fix ETH native without filtering [\#4255](https://github.com/paritytech/parity/issues/4255)
 
-**Merged
+**Merged pull requests:**
 
 - Background-repeat round [\#5475](https://github.com/paritytech/parity/pull/5475) ([jacogr](https://github.com/jacogr))
 - Force two decimals for USD conversion rate [\#5471](https://github.com/paritytech/parity/pull/5471) ([5chdn](https://github.com/5chdn))
@@ -52,7 +52,7 @@
 - Handle migrations which simply add columns [\#4581](https://github.com/paritytech/parity/issues/4581)
 - Straight download path in the readme [\#5393](https://github.com/paritytech/parity/pull/5393) ([arkpar](https://github.com/arkpar))
 
-**Fixed
+**Fixed bugs:**
 
 - Update link in cla bot [\#5404](https://github.com/paritytech/parity/issues/5404)
 - Parity fails returning tx receipt \(truffle\) [\#5400](https://github.com/paritytech/parity/issues/5400)
@@ -74,7 +74,7 @@
 - Parity export issue when using  --to [\#2170](https://github.com/paritytech/parity/issues/2170)
 - Display a message when exporting from an empty DB. [\#2163](https://github.com/paritytech/parity/issues/2163)
 
-**Merged
+**Merged pull requests:**
 
 - easy to use conversion from and to string for ethstore::Crypto [\#5437](https://github.com/paritytech/parity/pull/5437) ([debris](https://github.com/debris))
 - Adrianbrink lightclientcache branch. [\#5428](https://github.com/paritytech/parity/pull/5428) ([gavofyork](https://github.com/gavofyork))
@@ -130,12 +130,12 @@
 ## [v1.6.5](https://github.com/paritytech/parity/tree/v1.6.5) (2017-03-28)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.12...v1.6.5)
 
-**Fixed
+**Fixed bugs:**
 
 - Order contracts not only based on address [\#5292](https://github.com/paritytech/parity/issues/5292)
 - Owner list of an imported Mist multisig wallet [\#5029](https://github.com/paritytech/parity/issues/5029)
 
-**Merged
+**Merged pull requests:**
 
 - Copy all existing i18n strings into zh \(as-is translation aid\) [\#5305](https://github.com/paritytech/parity/pull/5305) ([jacogr](https://github.com/jacogr))
 - Fix default list sorting [\#5303](https://github.com/paritytech/parity/pull/5303) ([ngotchac](https://github.com/ngotchac))
@@ -151,7 +151,7 @@
 - LES: charge buffer for unserveable requests [\#3769](https://github.com/paritytech/parity/issues/3769)
 - DappReg allow pasting of actual URLs [\#3649](https://github.com/paritytech/parity/issues/3649)
 
-**Fixed
+**Fixed bugs:**
 
 - Contract interface displays boolean false as \[Object object\] [\#5291](https://github.com/paritytech/parity/issues/5291)
 - Some versions of FF has SectionList overflows [\#4998](https://github.com/paritytech/parity/issues/4998)
@@ -161,7 +161,7 @@
 - Change Password dialog doesn't have busy indicator [\#4747](https://github.com/paritytech/parity/issues/4747)
 - Sync mode is reset after an upgrade on windows [\#4664](https://github.com/paritytech/parity/issues/4664)
 
-**Merged
+**Merged pull requests:**
 
 - Fix booleans in Typedinput [\#5295](https://github.com/paritytech/parity/pull/5295) ([ngotchac](https://github.com/ngotchac))
 - Fix the use of MobX in playground [\#5294](https://github.com/paritytech/parity/pull/5294) ([ngotchac](https://github.com/ngotchac))
@@ -200,7 +200,7 @@
 - Convert Modal component to Portal [\#3942](https://github.com/paritytech/parity/issues/3942)
 - RPC Solidity compilation returns bytecode only, rather than full JSON as per spec  [\#2272](https://github.com/paritytech/parity/issues/2272)
 
-**Fixed
+**Fixed bugs:**
 
 - web3.personal.newAccount\(\) fails with 'method not found' [\#4980](https://github.com/paritytech/parity/issues/4980)
 - Token registry not working \(latest master\) [\#4966](https://github.com/paritytech/parity/issues/4966)
@@ -220,7 +220,7 @@
 - Invalid Params error should be more descriptive. [\#2448](https://github.com/paritytech/parity/issues/2448)
 - Random fail while syncing with ipc on [\#1903](https://github.com/paritytech/parity/issues/1903)
 
-**Merged
+**Merged pull requests:**
 
 - Double click to select account creation type [\#4986](https://github.com/paritytech/parity/pull/4986) ([ngotchac](https://github.com/ngotchac))
 - Fixes to the Registry dapp [\#4984](https://github.com/paritytech/parity/pull/4984) ([ngotchac](https://github.com/ngotchac))
@@ -266,14 +266,14 @@
 - Configurable state cache size. [\#2481](https://github.com/paritytech/parity/issues/2481)
 - Configurable state cache size. [\#2481](https://github.com/paritytech/parity/issues/2481)
 
-**Fixed
+**Fixed bugs:**
 
 - Dialog scrolling issues on MacOS Sierra Safari [\#4890](https://github.com/paritytech/parity/issues/4890)
 - Weird 'tile' behavior in Mac Safari browser [\#4887](https://github.com/paritytech/parity/issues/4887)
 - Parity won't die [\#2027](https://github.com/paritytech/parity/issues/2027)
 - Brew install on Mac Fails [\#1938](https://github.com/paritytech/parity/issues/1938)
 
-**Merged
+**Merged pull requests:**
 
 - Renaming evm binary to avoid conflicts. [\#4899](https://github.com/paritytech/parity/pull/4899) ([tomusdrw](https://github.com/tomusdrw))
 - Safari SectionList fix [\#4895](https://github.com/paritytech/parity/pull/4895) ([jacogr](https://github.com/jacogr))
@@ -283,7 +283,7 @@
 ## [v1.5.11](https://github.com/paritytech/parity/tree/v1.5.11) (2017-03-14)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.10...v1.5.11)
 
-**Merged
+**Merged pull requests:**
 
 - Spelling :\) [\#4900](https://github.com/paritytech/parity/pull/4900) ([maciejhirsz](https://github.com/maciejhirsz))
 - trigger js-precompiled build [\#4898](https://github.com/paritytech/parity/pull/4898) ([jacogr](https://github.com/jacogr))
@@ -296,11 +296,11 @@
 
 - Reload UI after software update & chain switches [\#4814](https://github.com/paritytech/parity/issues/4814)
 
-**Fixed
+**Fixed bugs:**
 
 - js-release should update Cargo.lock js-precompiled branch as well [\#4813](https://github.com/paritytech/parity/issues/4813)
 
-**Merged
+**Merged pull requests:**
 
 - Recalculate receipt roots in close\_and\_lock [\#4884](https://github.com/paritytech/parity/pull/4884) ([arkpar](https://github.com/arkpar))
 - OSX Installer is no longer experimental [\#4882](https://github.com/paritytech/parity/pull/4882) ([arkpar](https://github.com/arkpar))
@@ -317,11 +317,11 @@
 
 - Move `FixedHash` functions to hash types themsevles [\#4029](https://github.com/paritytech/parity/issues/4029)
 
-**Closed
+**Closed issues:**
 
 - Prepare/publish paritynews json files for Homepage \(Ropsten & Homestead\) [\#4676](https://github.com/paritytech/parity/issues/4676)
 
-**Merged
+**Merged pull requests:**
 
 - fix typos and grammar [\#4880](https://github.com/paritytech/parity/pull/4880) ([greggdourgarian](https://github.com/greggdourgarian))
 - Remove old experimental remote-db code [\#4872](https://github.com/paritytech/parity/pull/4872) ([NikVolf](https://github.com/NikVolf))
@@ -337,12 +337,12 @@
 - Mining tutorial outdated [\#4853](https://github.com/paritytech/parity/issues/4853)
 - When known contract in txlist, link through to it [\#4822](https://github.com/paritytech/parity/issues/4822)
 
-**Fixed
+**Fixed bugs:**
 
 - Contract development panel error: "TypeError: t is undefined" [\#4603](https://github.com/paritytech/parity/issues/4603)
 - When running with --mode offline the UI doesn't connect [\#4495](https://github.com/paritytech/parity/issues/4495)
 
-**Merged
+**Merged pull requests:**
 
 - Fix auto-updater [\#4867](https://github.com/paritytech/parity/pull/4867) ([gavofyork](https://github.com/gavofyork))
 - Fix Gas Price Selector Tooltips [\#4865](https://github.com/paritytech/parity/pull/4865) ([ngotchac](https://github.com/ngotchac))
@@ -358,7 +358,7 @@
 - dapp registry and name registry integration. [\#4342](https://github.com/paritytech/parity/issues/4342)
 - Remove daily limit from multisig wallet. [\#4310](https://github.com/paritytech/parity/issues/4310)
 
-**Fixed
+**Fixed bugs:**
 
 - Deploy contract title missing on completion [\#4828](https://github.com/paritytech/parity/issues/4828)
 - getTransactionCount in --geth mode should return nextNonce [\#4815](https://github.com/paritytech/parity/issues/4815)
@@ -370,7 +370,7 @@
 - Contract deployment doesn't allow you to specify transfered value [\#4396](https://github.com/paritytech/parity/issues/4396)
 - TokenReg doesn't always show the pending transactions [\#3154](https://github.com/paritytech/parity/issues/3154)
 
-**Merged
+**Merged pull requests:**
 
 - Subscribe to accounts info in Signer / ParityBar [\#4856](https://github.com/paritytech/parity/pull/4856) ([ngotchac](https://github.com/ngotchac))
 - Fix paste in Inputs [\#4854](https://github.com/paritytech/parity/pull/4854) ([ngotchac](https://github.com/ngotchac))

@@ -1,9 +1,9 @@
-#
+# Parity Change Log
 
 ## [v1.5.12](https://github.com/paritytech/parity/releases/v1.5.12) (2017-03-27)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.4...v1.5.12)
 
-**Merged
+**Merged pull requests:**
 
 - \[stable\] Backports [\#5297](https://github.com/paritytech/parity/pull/5297) ([arkpar](https://github.com/arkpar))
 
@@ -16,14 +16,14 @@
 ## [v1.5.9](https://github.com/paritytech/parity/releases/v1.5.9) (2017-03-11)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.1...v1.5.9)
 
-**Merged
+**Merged pull requests:**
 
 - Fix auto-updater \[stable\] [\#4869](https://github.com/paritytech/parity/pull/4869) ([gavofyork](https://github.com/gavofyork))
 
 ## [v1.5.8](https://github.com/paritytech/parity/releases/v1.5.8) (2017-03-08)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.7...v1.5.8)
 
-**Merged
+**Merged pull requests:**
 
 - \[stable\] Engine backports [\#4807](https://github.com/paritytech/parity/pull/4807) ([keorn](https://github.com/keorn))
 
