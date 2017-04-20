@@ -1,9 +1,9 @@
-# Parity Change Log
+#
 
 ## [v1.6.6](https://github.com/paritytech/parity/releases/v1.6.6) (2017-04-11)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.5...v1.6.6)
 
-**Merged pull requests:**
+**Merged
 
 - \[beta\] Backports [\#5434](https://github.com/paritytech/parity/pull/5434) ([arkpar](https://github.com/arkpar))
 - \[Beta\] Aura eip155 validation transition [\#5363](https://github.com/paritytech/parity/pull/5363) ([keorn](https://github.com/keorn))
@@ -13,14 +13,14 @@
 ## [v1.6.5](https://github.com/paritytech/parity/releases/v1.6.5) (2017-03-28)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.12...v1.6.5)
 
-**Merged pull requests:**
+**Merged
 
 - \[beta\] Backports [\#5299](https://github.com/paritytech/parity/pull/5299) ([arkpar](https://github.com/arkpar))
 
 ## [v1.6.4](https://github.com/paritytech/parity/releases/v1.6.4) (2017-03-22)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.3...v1.6.4)
 
-**Merged pull requests:**
+**Merged
 
 - Backporting to beta [\#4995](https://github.com/paritytech/parity/pull/4995) ([arkpar](https://github.com/arkpar))
 - \[beta\] UI backports [\#4993](https://github.com/paritytech/parity/pull/4993) ([jacogr](https://github.com/jacogr))
@@ -29,7 +29,7 @@
 ## [v1.6.3](https://github.com/paritytech/parity/releases/v1.6.3) (2017-03-14)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.11...v1.6.3)
 
-**Merged pull requests:**
+**Merged
 
 - \[beta\] Safari fixes [\#4902](https://github.com/paritytech/parity/pull/4902) ([jacogr](https://github.com/jacogr))
 
@@ -39,7 +39,7 @@
 ## [v1.6.1](https://github.com/paritytech/parity/releases/v1.6.1) (2017-03-10)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.6.0...v1.6.1)
 
-**Merged pull requests:**
+**Merged
 
 - \[beta\] UI backports [\#4855](https://github.com/paritytech/parity/pull/4855) ([jacogr](https://github.com/jacogr))
 - \[beta\] Simple score [\#4852](https://github.com/paritytech/parity/pull/4852) ([keorn](https://github.com/keorn))
@@ -48,7 +48,7 @@
 ## [v1.6.0](https://github.com/paritytech/parity/releases/v1.6.0) (2017-03-08)
 [Full Changelog](https://github.com/paritytech/parity/compare/v1.5.8...v1.6.0)
 
-**Merged pull requests:**
+**Merged
 
 - Show token icons on list summary pages \(\#4826\) [\#4827](https://github.com/paritytech/parity/pull/4827) ([jacogr](https://github.com/jacogr))
 
