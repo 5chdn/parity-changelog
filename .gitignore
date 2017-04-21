@@ -1,6 +1,11 @@
 # markdown
 *.html
 
+# cache
+*.log
+/http-cache/
+
+# ruby
 *.gem
 *.rbc
 /.config
