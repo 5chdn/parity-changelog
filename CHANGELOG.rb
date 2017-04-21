@@ -99,8 +99,8 @@ end
 @events.sort.reverse.each do | time, event |
   logg "LOGG events_each_do"
   if event[:type].eql? 'tag'
-    printf "\n## %s\n\n", event[:name]
+    printf "\n### [%s](https://github.com/%s/releases/tag/%s)\n\n", event[:name], @repository, event[:name]
   else
-    printf "- %s [#%i](https://github.com/%s/%i)\n", event[:title], event[:number], @repository, event[:number]
+    printf "- %s [#%i](https://github.com/%s/pull/%i)\n", event[:title], event[:number], @repository, event[:number]
   end
 end
