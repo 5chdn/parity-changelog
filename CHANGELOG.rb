@@ -5,6 +5,7 @@ require 'time'
 require 'faraday'
 require 'active_support'
 require 'faraday-http-cache'
+require 'colorize'
 require 'octokit'
 
 if ARGV.empty? or ARGV.first.nil? or ARGV.first.empty?
@@ -80,6 +81,20 @@ def get_merged_pulls_by_date
         :title  => pr.title,
         :type   => 'pull',
       }
+
+      ref = pr.base.ref
+
+      if ref.eql? 'master'
+        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_red
+      elsif ref.eql? 'beta'
+        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_yellow
+      elsif ref.eql? 'stable'
+        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_green
+      else
+        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".magenta
+      end
+
+      printf "\n"
     end
   end
 end
@@ -99,7 +114,7 @@ end
 @events.sort.reverse.each do | time, event |
   logg "LOGG events_each_do"
   if event[:type].eql? 'tag'
-    printf "\n### [%s](https://github.com/%s/releases/tag/%s)\n\n", event[:name], @repository, event[:name]
+    printf "\n### [%s](https://github.com/%s/releases/tag/%s) %s\n\n", event[:name], @repository, event[:name], event[:sha]
   else
     printf "- %s [#%i](https://github.com/%s/pull/%i)\n", event[:title], event[:number], @repository, event[:number]
   end
