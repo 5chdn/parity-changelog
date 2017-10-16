@@ -83,15 +83,20 @@ def get_merged_pulls_by_date
       }
 
       ref = pr.base.ref
+      title = "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}"
 
-      if ref.eql? 'master'
-        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_red
-      elsif ref.eql? 'beta'
-        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_yellow
-      elsif ref.eql? 'stable'
-        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".light_green
-      else
-        printf "#{time.to_i.to_s} #{ref.to_s} #{pr.number.to_s} #{pr.title} #{pr.merged_at.to_s}".magenta
+      begin
+        if ref.eql? 'master'
+          printf title.light_red
+        elsif ref.eql? 'beta'
+          printf title.light_yellow
+        elsif ref.eql? 'stable'
+          printf title.light_green
+        else
+          printf title.magenta
+        end
+      rescue ArgumentError => e
+        puts "ArgumentError: #{e}"
       end
 
       printf "\n"

@@ -1,0 +1,39 @@
+GEM
+  specs:
+    activesupport (4.2.8)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    colorize (0.8.1)
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    faraday-http-cache (2.0.0)
+      faraday (~> 0.8)
+    i18n (0.8.4)
+    minitest (5.10.2)
+    multipart-post (2.0.0)
+    octokit (4.7.0)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    public_suffix (2.0.5)
+    sawyer (0.8.1)
+      addressable (>= 2.3.5, < 2.6)
+      faraday (~> 0.8, < 1.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  colorize
+  faraday
+  faraday-http-cache
+  octokit
+
+BUNDLED WITH
+   1.16.0.pre.3

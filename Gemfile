@@ -1,0 +1,5 @@
+gem 'faraday'
+gem 'activesupport'
+gem 'faraday-http-cache'
+gem 'colorize'
+gem 'octokit'
